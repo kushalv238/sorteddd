@@ -1,0 +1,48 @@
+.features {
+    background-color: var(--clr-application-main2);
+    padding: 6rem 1rem;
+    color: white;
+}
+
+.feat1 {
+    padding-bottom: 10rem;
+}
+
+.fontawe-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: var(--clr-application-main);
+    transform: translate(-130%, -130%);
+}
+
+.color-applMain {
+    color: var(--clr-application-main);
+}
+
+.color-applMain2 {
+    color: var(--clr-application-main2);
+}
+
+.dotted-left-border {
+    border-left: 2px dotted rgb(159, 159, 159);
+}
+
+.feat-numbers {
+    border-radius: 50% ;
+    background-color: var(--clr-application-main);
+    padding: 5px 13px;
+    color: white;
+    padding: auto;
+
+    margin-left: -17px;
+}
+
+.paddingx-5rem {
+    padding: 0 5rem;
+}
+
+.view-btn {
+    background-color: white !important;
+    color: var(--clr-application-main2) !important;
+}

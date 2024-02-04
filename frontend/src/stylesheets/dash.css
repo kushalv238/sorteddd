@@ -1,0 +1,160 @@
+.entireDashPage * {
+    color: var(--clr-application-black) !important;
+}
+
+.dash__leftPanel {
+    height: 100% !important;
+    margin-top: -5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.dash__leftPanel>a {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0 1.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.dash__leftPanel>a:hover {
+    background-color: var(--clr-application-main-blur);
+}
+
+.dash__pageActive {
+    background-color: var(--clr-application-main-blur);
+}
+
+.cards>* {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.selectedDate {
+    border-bottom: 3px solid var(--clr-application-main);
+}
+
+.dash__date {
+    background-color: rgba(30, 143, 255, 0.228);
+    color: dodgerblue !important;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    display: flex;
+    text-align: start;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.w-45prec {
+    width: 45% !important;
+}
+
+
+/* @import "react-alice-carousel/lib/alice-carousel.css"; */
+
+.carousel-wrapper {
+    cursor: all-scroll;
+}
+
+.alice-carousel__dots {
+    position: absolute;
+
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.alice-carousel__play-btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 25px !important;
+}
+
+.alice-carousel__play-btn-item::before {
+    height: 30px !important;
+}
+
+.candidate__card-img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    /* border: 2px solid black; */
+    overflow: hidden;
+}
+
+.candidate__card-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.vote__btn,
+.viewdet__btn {
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.vote__btn,
+.viewdet__btn:hover {
+    border: 1px solid transparent;
+    background-color: var(--clr-application-main) !important;
+    color: white !important;
+}
+
+.viewdet__btn,
+.vote__btn:hover {
+    border: 1px solid var(--clr-application-main) !important;
+    color: var(--clr-application-main) !important;
+    background-color: white !important;
+}
+
+.active__election {
+    display: block;
+
+    width: 10px;
+    height: 10px;
+
+    background-color: green;
+
+    border-radius: 50%;
+}
+
+.candidates {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.candidate__bg {
+    background-color: var(--clr-application-main);
+    border-bottom-right-radius: 10rem;
+    border-bottom-left-radius: 4rem;
+}
+
+.candidate__bg * {
+    color: white !important;
+}
+
+.candidate__img-wrapper {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.candidate__img-wrapper img {
+    object-fit: cover;
+}
+
+.confirm__vote-btn {
+    background-color: var(--clr-application-main);
+    color: white !important;
+    border-radius: 0.5rem;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.color-application {
+    color: var(--clr-application-main) !important;
+}

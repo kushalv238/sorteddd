@@ -1,0 +1,23 @@
+// exporting all components
+
+export { default as ProtectedRouting } from './ProtectedRouting'
+
+export { default as Home } from './home/Home'
+export { default as AuthLayout } from './auth/AuthLayout'
+export { default as Login } from './auth/login/Login'
+export { default as Signup } from './auth/signup/Signup'
+export { default as ResetPass } from './auth/user/ResetPass'
+export { default as UserPage } from './auth/user/UserPage'
+export { default as Header } from './pure_components/Header'
+export { default as Footer } from './pure_components/Footer'
+export { default as GoToTop } from './pure_components/GoToTop'
+export { default as DashboardLayout } from './dash/DashboardLayout'
+export { default as Dashboard } from './dash/Dashboard'
+export { default as Vote } from './dash/Vote'
+export { default as Guidelines } from './dash/Guidelines'
+export { default as Candidate } from './dash/Candidate'
+export { default as VoteCandidate } from './dash/VoteCandidate'
+export { default as VotedPage } from './dash/VotedPage'
+export { default as About } from './about/About'
+export { default as Contact } from './contact/Contact'
+export { default as FAQ } from './faq/FAQ'
